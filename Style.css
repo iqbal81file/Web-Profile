@@ -415,3 +415,164 @@ footer{
   text-align: center;
   font-size: 15px;
 }
+@media (max-width: 768px) {
+
+  /* Navigasi */
+  .Navigasi {
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    font-size: 14px;
+    gap: 5px;
+  }
+
+  .Navigasi h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 5px 0;
+  }
+
+  .Navigasi nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .Home,
+  .About,
+  .Skill,
+  .Contact {
+    width: auto;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  main {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 130px;
+    /* kasih ruang lebih karena nav jadi 2 baris */
+  }
+
+  /* Home */
+  .Isi {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .IsiText {
+    text-align: center;
+  }
+
+  .Profile {
+    width: 180px;
+    margin-top: 0;
+  }
+
+  .Logo {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Button {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* About Me */
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .AboutMe img {
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+  }
+
+  .Bhscoding {
+    justify-content: center;
+  }
+
+  /* Skill */
+  #Skill1 {
+    margin-top: 60px;
+  }
+
+  .Skill1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Html {
+    width: 200px;
+    justify-content: center;
+  }
+
+  /* Projects */
+  #Projects1 {
+    margin-top: 60px;
+  }
+
+  .IsiHobby {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Hobby */
+  #Hobby1 {
+    margin-top: 80px;
+  }
+
+  .Card1 {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  /* Contact */
+  #Contact1 {
+    margin-top: 60px;
+  }
+
+  .IG,
+  .GH {
+    width: 90%;
+    max-width: 320px;
+    padding: 5px 20px;
+    justify-content: center;
+    font-size: 16px;
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .Profile {
+    width: 150px;
+  }
+
+  .AboutMe img {
+    width: 150px;
+    height: 150px;
+  }
+}
