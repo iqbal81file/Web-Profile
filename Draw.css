@@ -1,0 +1,82 @@
+body{
+  background: linear-gradient(to right, rgb(71, 0, 0), black);
+  padding: 20px;
+}
+main{
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: 0 0 10px red;
+  color: white;
+  padding: 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+nav h1{
+  margin-left: 0;
+  margin: 0;
+  margin-right: 80px;
+  color: white;
+}
+
+.back{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.back img{
+  width: 20px;
+  height: 20px;
+}
+
+.back:hover{
+  background-color: red;
+  box-shadow: 0 0 10px red;
+  transform: translateX(-5px);
+}
+.Foto{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.Portrait{
+  display: flex;
+  gap: 20px;
+}
+.Portrait img{
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Landscape{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.Landscape img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+P, h1, h2, h3{
+  font-family: Monsterrat, sans-serif;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  font-size: 20px;
+}

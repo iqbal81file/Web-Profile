@@ -1,0 +1,417 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(to right, rgb(71, 0, 0), black);
+  color : white;
+  margin: 0px;
+}
+P, h1, h2, h3{
+  font-family: Monsterrat, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+main{
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 70px;
+}
+/* Profile */
+.Profile{
+  border-radius: 150px;
+  width: 250px;
+  margin-top: 50px;
+  border: 2px solid red;
+  margin-right: 20px; 
+  box-shadow: 0 0 10px red;
+}
+.Isi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.IsiText{
+  text-align: justify;
+}
+/* Tombol Atas */
+.Navigasi{
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items: center;
+  padding : 10px;
+  font-size : 20px;
+  font-family: 'DM Sans', 'sans-serif';
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  gap: 20px;
+}
+#Home1,
+#AboutMe1,
+#Skill1,
+#Hobby1,
+#Contact1,
+#Projects1{
+    scroll-margin-top: 120px;
+}
+.Home{
+  color: white;
+  border: none;
+  background-color: black;
+  width: 80px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.Home:hover{
+  cursor: pointer;
+  background-color: red;
+  border-radius: 100px;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.Home:active{
+  background-color: darkred;
+  border-radius: 100px;
+}
+.About{
+  background-color: black;
+  color: white;
+  border: none;
+  width: 80px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.About:hover{
+  cursor: pointer;
+  background-color: red;
+  border-radius: 100px;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.About:active{
+  background-color: darkred;
+  cursor: pointer;
+}
+.Skill{
+  color: white;
+  border: none;
+  background-color: black;
+  width: 80px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.Skill:hover{
+  cursor: Pointer;
+  background-color: red;
+  border-radius: 100px;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.Skill:active{
+  background-color: darkred;
+  border-radius: 100px;
+}
+.Contact{
+  color: white;
+  border: none;
+  background-color: black;
+  width: 80px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.Contact:hover{
+  background-color: red;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.Contact:active{
+  background-color: darkred;
+  border-radius: 100px;
+}
+/* Button Bawah */
+
+.Button{
+  margin-top: 10px;
+  font-family: 'DM Sans', 'sans-serif';
+  display: flex;
+  gap: 10px;
+}
+.Chat{
+  height: 50px;
+  width: 150px;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.Check{
+  height: 50px;
+  width: 150px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: transparent;
+  color: red;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.Chat:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.Check:hover{
+  background-color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+/* Logo */
+.Logo{
+  display: flex;
+  gap: 10px;
+}
+.Instagram{
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.Instagram:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.Wa{
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.Wa:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+}
+.Facebook{
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.Facebook:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.Github{
+  background-color : white;
+  width: 30px;
+  padding: 5px;
+  height: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.Github:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+/* About Me */
+.AboutMe{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
+  text-align: justify;
+  margin-right: 20px;
+}
+.AboutMe img{
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 0 10px red;
+}
+.Bhscoding{
+  display: flex;
+  gap: 10px;
+  margin-top: 0px;
+}
+.Bhscoding p{
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 10px;
+  color: red;
+  margin-top: 0px;
+}
+/* Bagian Skill */
+#Skill1{
+  margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
+}
+.Skill1{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.Html{
+  background-color: transparent;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid red;
+  transition: 0.3s;
+  gap: 10px;
+  font-size: 15px;
+}
+.Html:hover{
+  background-color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 10px red;
+}
+/* Project */
+#Projects1{
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 155px;
+}
+.Card-Project{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  width: 500px;
+}
+/* Bagian Hobby */
+#Hobby1{
+  margin-top: 255px;
+}
+.IsiHobby{
+  display: flex;
+  gap: 35px;
+}
+.Card1{
+  background-color: black;
+  width: 250px;
+  height: 430px;
+  border: 2px solid red;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s;
+}
+.Card1:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px red;
+}
+.Card1 img{
+  width: 250px;
+  border-radius: 20px 20px 0 0;
+}
+.Card1 button{
+  width: 125px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px red;
+}
+.Card1 button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* Contact */
+#Contact1{
+  margin-top: 150px;
+}
+.Container-Icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.IG{
+  display: flex;  
+  align-items: center;
+  gap: 8px;
+  padding: 5px 100px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 20px;
+  width: 350px;
+  height: 70px;
+
+}
+.IG:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: white;
+  box-shadow: 0 0 10px red;
+}
+.GH{
+  display: flex;  
+  align-items: center;
+  gap: 8px;
+  padding: 5px 100px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 20px;
+  width: 350px;
+  height: 70px;
+}
+.GH img{
+  width: 50px;
+  height: 50px;
+}
+.GH:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: white;
+  box-shadow: 0 0 10px red;
+}
+footer{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
