@@ -67,3 +67,11 @@ nav h1{
   border: 2px solid red;
   box-shadow: 0 0 10px red;
 }
+@media (max-width: 768px){
+  .Coding img{
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+  }
+}
