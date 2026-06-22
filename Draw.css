@@ -80,3 +80,18 @@ p{
   text-align: justify;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .Landscape img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .Portrait img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
